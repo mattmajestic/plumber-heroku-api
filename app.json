@@ -1,0 +1,16 @@
+{
+  "name": "real_world_apis",
+  "stack": "container",
+  "description": "We need to make service so I don't go broke",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/mattmajestic/real_world_apis",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
