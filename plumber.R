@@ -14,7 +14,7 @@ function(req, res) {
 #* CoinGecko Categories
 #* @get /categories
 function(){
-  log_name <- paste0("logs/","cat",Sys.time(),".json")
+  log_name <- paste0("logs/","cat",as.numeric(Sys.time()),".json")
   jsonlite::write_json("cat",log_name)
   rm(log_name)
   jsonlite::fromJSON("https://api.coingecko.com/api/v3/coins/categories/list")
